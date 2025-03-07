@@ -103,6 +103,6 @@ test_sentence = "Mobile Suit Gundam, also retrospectively known as First Gundam,
 bigram_perplexity = calculate_perplexity(test_sentence, bigram_probability)
 trigram_perplexity = calculate_trigram_perplexity(test_sentence, trigram_probability)
 
-# Step 6: Print the result
+# Print result
 print(f"Bigram model perplexity: \"{test_sentence}\" = Score: {bigram_perplexity}")
 print(f"Trigram model perplexity: \"{test_sentence}\" = Score: {trigram_perplexity}")
